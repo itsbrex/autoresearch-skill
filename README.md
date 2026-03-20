@@ -27,4 +27,15 @@ Trigger with prompts like:
 - "eval my skill"
 - "make this skill better"
 
-See [SKILL.md](SKILL.md) for the full skill definition and [references/eval-guide.md](references/eval-guide.md) for how to write good evals.
+See [autoresearch/SKILL.md](autoresearch/SKILL.md) for the full skill definition and [autoresearch/references/eval-guide.md](autoresearch/references/eval-guide.md) for how to write good evals.
+
+## Directory Structure
+
+```
+autoresearch/
+├── SKILL.md              # Skill metadata + instructions
+└── references/
+    └── eval-guide.md     # How to write good binary evals
+```
+
+This follows the [Agent Skills specification](https://agentskills.io/specification).
